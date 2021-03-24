@@ -1,0 +1,2 @@
+red --> #ff5d4c
+for font --> #7f7f7f

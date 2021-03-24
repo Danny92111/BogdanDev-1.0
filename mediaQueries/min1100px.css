@@ -1,0 +1,36 @@
+@media only screen and (min-width: 1100px) {
+  #Onclick-Popup-Main-container-chez {
+    width: 912px;
+  }
+  .popup-visible {
+    left: calc((100vw - 912px) / 2) !important;
+  }
+  #Onclick-Popup-Main-container-baseri {
+    width: 912px;
+  }
+  #Onclick-Popup-Main-container-oxford {
+    width: 912px;
+  }
+  #Content-messenger-wrapper {
+    margin-left: calc((100vw - 912px) / 2);
+    width: 912px;
+  }
+  #Social-media-small-container {
+    right: calc((100vw - 912px) / 2);
+  }
+  #Answer-req-email-cont {
+    left: calc((100vw - 912px) / 2);
+    width: 912px;
+  }
+  #Answer-req-email-cont div input {
+    width: 300px;
+    font-size: 26px;
+  }
+  #Answer-req-email-cont p {
+    font-size: 2.7rem;
+  }
+  #Thank-you-cont {
+    width: 912px;
+    left: calc((100vw - 912px) / 2);
+  }
+}

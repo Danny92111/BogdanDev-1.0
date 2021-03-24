@@ -1,0 +1,101 @@
+@media only screen and (min-width: 714px) {
+  .Main-container-For-project {
+    width: 250px;
+    left: 90px;
+  }
+  #Chez-container i {
+    right: 90px;
+    width: 150px;
+  }
+  #Baseri-container i {
+    width: 150px;
+    right: 90px;
+  }
+  #Oxford-container i {
+    width: 150px;
+    right: 90px;
+  }
+  @keyframes arrow {
+    from {
+      padding-left: 10px;
+    }
+    to {
+      padding-left: 120px;
+    }
+  }
+  .ind-projects-cont {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  #Project-4 {
+    left: 0;
+    width: calc(100% - 180px;);
+  }
+  #buttons-container-chez {
+    width: 50%;
+    left: 25%;
+  }
+  #buttons-container-oxford {
+    width: 50%;
+    left: 25%;
+  }
+  #buttons-container-baseri {
+    width: 50%;
+    left: 25%;
+  }
+  #Details-services-container {
+    height: 400px;
+  }
+  .eachService img {
+    width: 80px;
+  }
+  .close-pop-up {
+    right: 50px;
+  }
+  #Credits {
+    font-size: 1.7rem;
+  }
+  #Copyright-paragraph {
+    font-size: 1.8rem;
+  }
+  .credits-links {
+    font-size: 1.4rem;
+  }
+  .BTNafteranimation {
+    left: 95vw !important;
+  }
+  .service4Animation {
+    right: 20px !important;
+  }
+  .description-format {
+    font-size: 2.3rem;
+  }
+  .Visit-website-button {
+    font-size: 2.1rem;
+  }
+  #Content-messenger-wrapper h2 {
+    font-size: 2.3rem;
+  }
+  #Answer-req-email-cont p {
+    font-size: 2.3rem;
+  }
+  #Answer-req-email-cont div button {
+    width: 90px;
+    height: 35px;
+    margin-left: 15px;
+  }
+  #My-pic-messenger {
+    margin-right: 35px;
+  }
+  #Social-media-small-container {
+    right: 20px;
+  }
+  #See-my-work-container {
+    font-size: 3.2rem;
+  }
+  .category {
+    font-size: 2.4rem;
+  }
+}

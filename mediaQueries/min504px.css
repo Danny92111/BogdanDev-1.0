@@ -1,0 +1,60 @@
+@media only screen and (min-width: 504px) {
+  * {
+    font-size: 62.5%;
+  }
+  #Questions-custom-wrapper button {
+    width: 90px;
+    height: 35px;
+  }
+  #Questions-custom-wrapper input {
+    height: 35px;
+  }
+  .Image-of-lang {
+    height: 80px;
+  }
+  #Details-services-container {
+    height: 500px;
+  }
+  .BTNafteranimation {
+    top: -94px !important;
+    line-height: 70% !important;
+    border-radius: 30px !important;
+    text-align: center;
+  }
+  .Image-Preview-Frame {
+    width: auto;
+  }
+  #Answer-req-email-cont div button {
+    height: 35px;
+  }
+
+  #Social-media-small-container {
+    width: 80px;
+    top: 55px;
+    height: calc(100vh - 170px);
+  }
+
+  #See-my-work-container {
+    font-size: 2.8rem;
+  }
+  #Description-paragraph {
+    font-size: 3.8rem;
+    letter-spacing: 5px;
+  }
+  #buttons-container-chez {
+    width: 70%;
+    left: 15%;
+  }
+  #buttons-container-baseri {
+    width: 70%;
+    left: 15%;
+  }
+  #buttons-container-oxford {
+    width: 70%;
+    left: 15%;
+  }
+  .OK-Btn {
+    width: 200px;
+    font-size: 2.8rem;
+  }
+}

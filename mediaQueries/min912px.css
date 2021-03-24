@@ -1,0 +1,146 @@
+@media only screen and (min-width: 912px) {
+  html {
+    width: 912px;
+  }
+  body {
+    width: 912px;
+    background-color: #ff5d4c;
+    position: relative;
+    left: calc((100vw - 912px) / 2);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  }
+  #Footer-main-container {
+    background-color: white;
+  }
+  #List-in-menu {
+    width: 912px;
+  }
+  #Home-section-container {
+    width: 912px;
+    height: 80vh;
+  }
+  #My-pic-messenger {
+    width: 90px;
+    height: 90px;
+    margin-right: calc((100vw - 912px) / 2);
+  }
+  .Lang-progression-container {
+    width: 60%;
+  }
+  .title-format {
+    font-size: 3.8rem;
+  }
+  .Main-container-For-project {
+    width: 350px;
+  }
+  .BTNafteranimation {
+    left: 900px !important;
+  }
+  #Description-paragraph {
+    font-size: 4.5rem;
+    letter-spacing: 7px;
+  }
+  #See-my-work-container {
+    font-size: 3.8rem;
+  }
+  .Icon-of-quality {
+    width: 180px;
+    height: 180px;
+  }
+  .titleS-format {
+    font-size: 2.8rem;
+  }
+  #arrow-right-about-me {
+    width: 90px;
+    height: 90px;
+
+    left: calc(100% - 90px);
+  }
+  #arrow-right-about-me::after {
+    font-size: 90px;
+  }
+  #arrow-left-about-me {
+    width: 90px;
+    height: 90px;
+  }
+  #arrow-left-about-me::after {
+    font-size: 90px;
+  }
+  .description-format {
+    font-size: 2.7rem;
+  }
+  .Image-of-lang {
+    height: 120px;
+  }
+  #Lang-container-without-title {
+    margin: 50px 0;
+  }
+  .Image-Preview-Frame {
+    width: 100px;
+  }
+  #buttons-container-oxford {
+  }
+  #buttons-container-baseri {
+  }
+  #buttons-container-chez {
+  }
+  .close-pop-up {
+    width: 70px;
+    height: 70px;
+  }
+  .close-pop-up::after {
+    font-size: 70px;
+  }
+  #Details-services-container {
+    height: 500px;
+  }
+  #Copyright-paragraph {
+    font-size: 2.2rem;
+  }
+  #Credits {
+    font-size: 2rem;
+  }
+  #Small-projects-container {
+    position: relative;
+    height: 350px;
+    margin-top: 30px;
+  }
+  .Individual-quality-container {
+    height: 350px;
+  }
+  .Individual-quality-container h1 {
+    margin-top: 30px;
+  }
+  #Go-to-top-page-container {
+    position: fixed;
+    bottom: 200px;
+    left: calc((100vw - 912px) / 2);
+  }
+  .detailedService {
+    left: -100vw;
+
+    transition: left 0.7s;
+  }
+  .BTNafteranimation {
+    font-size: 3.8rem !important;
+    padding: 15px !important;
+  }
+  .preload-container {
+    width: 912px;
+    left: calc((100vw - 912px) / 2);
+  }
+  .bubble {
+    opacity: 0;
+  }
+  #Social-media-small-container {
+    right: calc((100vw - 912px) / 2);
+  }
+  .confirmation-message {
+    width: 912px;
+  }
+  .confirmation-message-active {
+    overflow: hidden;
+    left: calc((100vw - 912px) / 2);
+    width: 912px;
+  }
+}

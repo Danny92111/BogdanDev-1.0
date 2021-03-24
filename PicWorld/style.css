@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Pirata One", cursive;
+  background-color: rgba(230, 230, 230, 0.4);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  min-height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+#Logo {
+  text-decoration: none;
+  color: black;
+}
+header h2 {
+  padding: 2rem;
+  font-family: "Kufam", cursive;
+  text-transform: uppercase;
+}
+.search-form {
+  padding: 2rem;
+  display: flex;
+}
+.search-form input {
+  font-size: 2rem;
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border: 2px solid rgb(74, 68, 131);
+}
+.search-form button {
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background: rgb(74, 68, 131);
+  color: white;
+  cursor: pointer;
+}
+.gallery-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  padding: 0.5rem 0rem;
+}
+.gallery-info a {
+  color: gray;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 6px 15px;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  padding: 2rem 1rem;
+  width: 80%;
+  margin: auto;
+  row-gap: 5rem;
+  column-gap: 3rem;
+  background-color: rgb(230, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.gallery-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.nav-button {
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.more {
+  padding: 1rem 3rem;
+  cursor: pointer;
+  background: rgb(74, 68, 131);
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 474px) {
+  .gallery-img img {
+    width: 70vw;
+    height: 80vw;
+    background-position: center;
+    position: relative;
+    left: 8px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  }
+  .gallery-info {
+    width: 70vw;
+    position: relative;
+    left: 8px;
+  }
+}
